@@ -1,0 +1,37 @@
+[
+    {
+        "Management_Area": "AI Policy",
+        "Objective": "Define rules and principles for responsible AI use.",
+        "Key_Activities": "Establish AI governance principles and acceptable use requirements."
+    },
+    {
+        "Management_Area": "Roles and Responsibilities",
+        "Objective": "Ensure clear ownership of AI-related activities.",
+        "Key_Activities": "Assign responsibilities for development, monitoring, risk review, and approval."
+    },
+    {
+        "Management_Area": "Risk Management",
+        "Objective": "Identify and address risks associated with the AI system.",
+        "Key_Activities": "Assess model, data, fairness, privacy, and operational risks."
+    },
+    {
+        "Management_Area": "Data Governance",
+        "Objective": "Maintain appropriate data quality and protection.",
+        "Key_Activities": "Review data quality, access, handling, and privacy requirements."
+    },
+    {
+        "Management_Area": "Lifecycle Management",
+        "Objective": "Manage the AI system throughout its lifecycle.",
+        "Key_Activities": "Document development, evaluation, deployment, monitoring, and retirement activities."
+    },
+    {
+        "Management_Area": "Performance Evaluation",
+        "Objective": "Evaluate the effectiveness and reliability of the AI system.",
+        "Key_Activities": "Review model metrics, monitoring reports, and governance controls."
+    },
+    {
+        "Management_Area": "Continual Improvement",
+        "Objective": "Improve the AI management processes over time.",
+        "Key_Activities": "Record incidents, corrective actions, and improvement opportunities."
+    }
+]

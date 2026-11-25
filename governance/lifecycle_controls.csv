@@ -1,0 +1,9 @@
+Lifecycle_Stage,Main_Activities,Governance_Controls,Implementation_Status
+Planning and Design,"Define the business problem, intended purpose, system objectives, and potential risks.","Document intended use, identify stakeholders, and perform an initial risk assessment.",Completed
+Data Preparation,"Collect, inspect, clean, and prepare the dataset.","Check data quality, document data sources, and consider privacy and fairness requirements.",Completed
+Model Development,Train and optimize the customer churn prediction model.,"Document model configurations, experiments, and development decisions.",Completed
+Model Evaluation,Evaluate predictive performance using appropriate evaluation metrics.,"Review model performance, limitations, and potential bias before approval.",Partially Completed
+Deployment,Integrate the selected model into an operational environment.,"Require deployment approval, access controls, and appropriate testing.",Planned
+Monitoring,Monitor data distributions and model performance over time.,"Detect data drift, review performance changes, and generate monitoring reports.",Prototype Completed
+Maintenance and Improvement,"Review model behavior, investigate issues, and evaluate the need for retraining.","Document model changes, validate updated models, and maintain version records.",Planned
+Retirement,Withdraw outdated or unsuitable models from operational use.,"Approve model retirement, archive relevant records, and manage associated data responsibly.",Planned

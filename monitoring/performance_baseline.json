@@ -1,0 +1,23 @@
+{
+    "model": "XGBoost",
+    "evaluation_dataset": "Held-out Test Dataset",
+    "threshold": 0.56,
+    "metrics": {
+        "Accuracy": 0.7643718949609652,
+        "Precision": 0.5406976744186046,
+        "Recall": 0.7459893048128342,
+        "F1-Score": 0.6269662921348315,
+        "ROC-AUC": 0.8462566844919786,
+        "PR-AUC": 0.662242549619586
+    },
+    "confusion_matrix": [
+        [
+            798,
+            237
+        ],
+        [
+            95,
+            279
+        ]
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "project": "ModelGuard",
+    "evaluation_date": "2026-11-23T20:42:13.561524+03:00",
+    "results": {
+        "tool_selection_accuracy": 1.0,
+        "tool_execution_success_rate": 1.0,
+        "reliability_tests_passed": 3,
+        "reliability_tests_total": 3,
+        "reliability_test_pass_rate": 1.0,
+        "response_gate_passed": 4,
+        "response_gate_total": 4,
+        "response_gate_pass_rate": 1.0
+    },
+    "reliability_tests": [
+        {
+            "test": "Unsupported Claim",
+            "passed": true,
+            "details": [
+                "Unsupported deployment claim",
+                "Unsupported automatic retraining claim"
+            ]
+        },
+        {
+            "test": "Incorrect Numerical Claim",
+            "passed": true,
+            "details": [
+                "Accuracy does not match evidence."
+            ]
+        },
+        {
+            "test": "Insufficient Evidence",
+            "passed": true,
+            "details": [
+                "Insufficient evidence for: drift_analysis"
+            ]
+        }
+    ],
+    "response_gate_tests": [
+        {
+            "test": "Unsupported Claim",
+            "expected_release": false,
+            "actual_release": false,
+            "passed": true,
+            "issues": [
+                "Unsupported deployment claim",
+                "Unsupported automatic retraining claim"
+            ]
+        },
+        {
+            "test": "Incorrect Numerical Claim",
+            "expected_release": false,
+            "actual_release": false,
+            "passed": true,
+            "issues": [
+                "Accuracy does not match evidence."
+            ]
+        },
+        {
+            "test": "Insufficient Evidence",
+            "expected_release": false,
+            "actual_release": false,
+            "passed": true,
+            "issues": [
+                "Insufficient evidence for: drift_analysis"
+            ]
+        },
+        {
+            "test": "Valid Response",
+            "expected_release": true,
+            "actual_release": true,
+            "passed": true,
+            "issues": []
+        }
+    ],
+    "limitations": [
+        "Evaluation used a limited number of controlled test cases.",
+        "The tests verify selected unsupported claims, not all hallucinations.",
+        "The response gate has not yet been integrated into the FastAPI output pipeline.",
+        "Monitoring results are based on a held-out test dataset, not live production data.",
+        "The system has not yet been deployed."
+    ]
+}

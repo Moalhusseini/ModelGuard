@@ -1,0 +1,4 @@
+Framework,Framework_Type,Main_Focus,ModelGuard_Relevance,Application,Assessment_Status
+EU AI Act,Legal Regulation,Risk-based regulation of AI systems,Conditional,"Review legal scope, intended purpose, system classification, and applicable obligations.",Preliminary review - not a legal compliance assessment
+NIST AI RMF 1.0,Voluntary Risk Management Framework,"Identify, measure, and manage AI risks",High,"Use Govern, Map, Measure, and Manage to structure governance activities.",Used as the main operational reference
+OECD AI Principles,International Principles,Trustworthy and responsible AI,High,"Use the principles to guide fairness, transparency, privacy, robustness, and accountability.",Used as a responsible AI reference

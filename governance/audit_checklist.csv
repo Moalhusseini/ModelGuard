@@ -1,0 +1,10 @@
+Audit_ID,Audit_Area,Audit_Requirement,Evidence,Review_Status
+A01,Data Documentation,"Verify that data sources, cleaning procedures, and data preparation steps are documented.",Notebook 01 and monitoring reference data,Available
+A02,Model Development,"Review model configurations, training procedures, and evaluation results.",Trained model artifacts and model_results.json,Available
+A03,Experiment Tracking,"Verify that experiments, parameters, metrics, and model artifacts are recorded.",MLflow experiment records,Available
+A04,Model Monitoring,Review drift detection results and model performance monitoring reports.,Monitoring reports and performance_baseline.json,Prototype Available
+A05,Risk Management,"Verify that identified risks, assessment scores, and mitigation measures are documented.",risk_register.json,Available
+A06,Impact Assessment,Review stakeholder impacts and proposed response measures.,impact_assessment.json,Available
+A07,Incident Management,Verify that incident scenarios and response procedures are documented.,incident_management.json,Documentation Prepared
+A08,AI Governance,"Review governance principles, responsibilities, and applicable frameworks.",Governance documentation and framework assessment,Available
+A09,Deployment and Access Control,"Verify deployment approval, authentication, and access control procedures.",Deployment and security documentation,Pending

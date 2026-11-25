@@ -1,0 +1,7 @@
+Principle,Application
+Fairness,Evaluate whether model performance differs across relevant customer groups and identify potential bias.
+Transparency,"Document the model purpose, data sources, evaluation results, and limitations."
+Accountability,"Define clear responsibilities for model development, monitoring, risk assessment, and approval."
+Privacy and Data Protection,Use customer data responsibly and avoid exposing personal information in reports or model outputs.
+Reliability and Robustness,Evaluate model performance and monitor data changes that may affect prediction reliability.
+Human Oversight,Keep important business decisions under human review rather than relying entirely on model predictions.

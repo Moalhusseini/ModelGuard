@@ -1,0 +1,8 @@
+Stakeholder,Responsibility
+Business Owner,Defines business objectives and approves the intended use of the model.
+Data Scientist / Model Developer,"Develops, evaluates, documents, and validates the prediction model."
+Data Engineer,"Manages data quality, data preparation, and data pipeline reliability."
+IT / MLOps Engineer,"Manages model deployment, experiment tracking, monitoring, and technical operations."
+Governance / Risk Officer,"Reviews model risks, governance controls, and compliance requirements."
+Business Users,Use model predictions to support customer retention decisions and provide feedback.
+Affected Customers,Represent the individuals whose data is processed and who may be affected by model-supported decisions.

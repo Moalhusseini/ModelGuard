@@ -1,0 +1,4 @@
+test,passed,details
+Unsupported Claim,True,"['Unsupported deployment claim', 'Unsupported automatic retraining claim']"
+Incorrect Numerical Claim,True,['Accuracy does not match evidence.']
+Insufficient Evidence,True,['Insufficient evidence for: drift_analysis']

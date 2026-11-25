@@ -1,0 +1,72 @@
+[
+    {
+        "Risk_ID": "R01",
+        "Risk": "Poor Data Quality",
+        "Category": "Data",
+        "Cause": "Missing, incorrect, inconsistent, or outdated customer information.",
+        "Potential_Impact": "Unreliable predictions and incorrect customer risk assessments.",
+        "Likelihood": 3,
+        "Severity": 4,
+        "Mitigation": "Apply data validation, quality checks, and regular data reviews."
+    },
+    {
+        "Risk_ID": "R02",
+        "Risk": "Data Drift",
+        "Category": "Technical",
+        "Cause": "Changes in customer characteristics or behavior over time.",
+        "Potential_Impact": "Incoming data may differ from the data used during model training.",
+        "Likelihood": 4,
+        "Severity": 4,
+        "Mitigation": "Monitor feature distributions and investigate detected drift."
+    },
+    {
+        "Risk_ID": "R03",
+        "Risk": "Model Performance Degradation",
+        "Category": "Technical",
+        "Cause": "Changes in customer behavior or relationships between features and churn.",
+        "Potential_Impact": "Reduced prediction quality and missed churn cases.",
+        "Likelihood": 3,
+        "Severity": 4,
+        "Mitigation": "Monitor performance when actual outcomes become available and evaluate retraining when necessary."
+    },
+    {
+        "Risk_ID": "R04",
+        "Risk": "Potential Algorithmic Bias",
+        "Category": "Ethical",
+        "Cause": "Unequal model performance across different customer groups.",
+        "Potential_Impact": "Some customer groups may receive less reliable predictions.",
+        "Likelihood": 3,
+        "Severity": 4,
+        "Mitigation": "Evaluate model performance across relevant customer groups and investigate disparities."
+    },
+    {
+        "Risk_ID": "R05",
+        "Risk": "Privacy and Data Protection",
+        "Category": "Privacy",
+        "Cause": "Unauthorized access, exposure, or inappropriate use of customer information.",
+        "Potential_Impact": "Exposure of personal information and potential harm to customers.",
+        "Likelihood": 2,
+        "Severity": 5,
+        "Mitigation": "Apply access controls, data minimization, and secure data handling procedures."
+    },
+    {
+        "Risk_ID": "R06",
+        "Risk": "Overreliance on Model Predictions",
+        "Category": "Operational",
+        "Cause": "Business users treating predictions as final decisions.",
+        "Potential_Impact": "Inappropriate customer retention actions without sufficient human review.",
+        "Likelihood": 3,
+        "Severity": 4,
+        "Mitigation": "Require human review for important decisions and communicate model limitations."
+    },
+    {
+        "Risk_ID": "R07",
+        "Risk": "Unauthorized System Access",
+        "Category": "Security",
+        "Cause": "Insufficient authentication or access control.",
+        "Potential_Impact": "Unauthorized access to models, customer data, or system components.",
+        "Likelihood": 2,
+        "Severity": 5,
+        "Mitigation": "Implement authentication, role-based access control, and security reviews."
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "Stakeholder": "Business Owner",
+        "Responsibility": "Defines business objectives and approves the intended use of the model."
+    },
+    {
+        "Stakeholder": "Data Scientist / Model Developer",
+        "Responsibility": "Develops, evaluates, documents, and validates the prediction model."
+    },
+    {
+        "Stakeholder": "Data Engineer",
+        "Responsibility": "Manages data quality, data preparation, and data pipeline reliability."
+    },
+    {
+        "Stakeholder": "IT / MLOps Engineer",
+        "Responsibility": "Manages model deployment, experiment tracking, monitoring, and technical operations."
+    },
+    {
+        "Stakeholder": "Governance / Risk Officer",
+        "Responsibility": "Reviews model risks, governance controls, and compliance requirements."
+    },
+    {
+        "Stakeholder": "Business Users",
+        "Responsibility": "Use model predictions to support customer retention decisions and provide feedback."
+    },
+    {
+        "Stakeholder": "Affected Customers",
+        "Responsibility": "Represent the individuals whose data is processed and who may be affected by model-supported decisions."
+    }
+]

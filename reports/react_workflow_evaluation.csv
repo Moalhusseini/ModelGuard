@@ -1,0 +1,5 @@
+test_name,expected_behavior,actual_status,passed,result
+Prediction Only,Generate a customer prediction report only.,completed,True,Passed
+Monitoring Only,Generate a monitoring report only.,completed,True,Passed
+Combined Workflow,Generate prediction and monitoring reports.,completed,True,Passed
+Insufficient Evidence,Avoid generating unsupported conclusions.,completed,True,Passed

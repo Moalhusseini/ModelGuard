@@ -1,0 +1,10 @@
+{
+    "system_facts": [
+        {
+            "timestamp": "2026-11-22T18:21:34.583226",
+            "content": "The churn prediction model is an XGBoost classifier.",
+            "source": "artifacts/model_results.json"
+        }
+    ],
+    "verified_observations": []
+}

@@ -1,0 +1,11 @@
+{
+    "system_name": "ModelGuard",
+    "model_name": "Customer Churn Prediction",
+    "model_type": "XGBoost Classifier",
+    "business_domain": "Telecommunications",
+    "intended_purpose": "Predict customers who may be at risk of leaving",
+    "system_role": "Decision Support",
+    "target_variable": "Customer Churn",
+    "deployment_status": "Not yet deployed",
+    "human_oversight": "Required for important business decisions"
+}

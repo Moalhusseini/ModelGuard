@@ -1,0 +1,26 @@
+[
+    {
+        "Principle": "Fairness",
+        "Application": "Evaluate whether model performance differs across relevant customer groups and identify potential bias."
+    },
+    {
+        "Principle": "Transparency",
+        "Application": "Document the model purpose, data sources, evaluation results, and limitations."
+    },
+    {
+        "Principle": "Accountability",
+        "Application": "Define clear responsibilities for model development, monitoring, risk assessment, and approval."
+    },
+    {
+        "Principle": "Privacy and Data Protection",
+        "Application": "Use customer data responsibly and avoid exposing personal information in reports or model outputs."
+    },
+    {
+        "Principle": "Reliability and Robustness",
+        "Application": "Evaluate model performance and monitor data changes that may affect prediction reliability."
+    },
+    {
+        "Principle": "Human Oversight",
+        "Application": "Keep important business decisions under human review rather than relying entirely on model predictions."
+    }
+]

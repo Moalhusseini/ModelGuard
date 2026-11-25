@@ -1,0 +1,56 @@
+[
+    {
+        "Incident_ID": "I01",
+        "Incident": "Significant Data Drift",
+        "Detection_Method": "Statistical drift monitoring",
+        "Potential_Impact": "Changes in input data may reduce the reliability of model predictions.",
+        "Response_Action": "Investigate the affected features, review data sources, and evaluate model performance before considering retraining.",
+        "Responsible_Role": "Data Scientist / MLOps Engineer",
+        "Priority": "High"
+    },
+    {
+        "Incident_ID": "I02",
+        "Incident": "Model Performance Degradation",
+        "Detection_Method": "Performance monitoring using actual customer outcomes",
+        "Potential_Impact": "The model may produce less accurate churn predictions.",
+        "Response_Action": "Investigate the cause, review recent data, and evaluate whether model retraining is required.",
+        "Responsible_Role": "Data Scientist",
+        "Priority": "High"
+    },
+    {
+        "Incident_ID": "I03",
+        "Incident": "Potential Algorithmic Bias",
+        "Detection_Method": "Performance evaluation across customer groups",
+        "Potential_Impact": "Some customer groups may receive less reliable predictions.",
+        "Response_Action": "Investigate performance differences and review data and model behavior before further use.",
+        "Responsible_Role": "Governance / Risk Officer",
+        "Priority": "High"
+    },
+    {
+        "Incident_ID": "I04",
+        "Incident": "Privacy or Data Breach",
+        "Detection_Method": "Security alerts or reported unauthorized data exposure",
+        "Potential_Impact": "Customer information may be exposed or accessed without authorization.",
+        "Response_Action": "Restrict affected access, investigate the incident, preserve relevant records, and follow applicable data breach procedures.",
+        "Responsible_Role": "IT / Security Team",
+        "Priority": "Critical"
+    },
+    {
+        "Incident_ID": "I05",
+        "Incident": "Unauthorized System Access",
+        "Detection_Method": "Authentication logs and security monitoring",
+        "Potential_Impact": "Unauthorized users may access system components, models, or sensitive information.",
+        "Response_Action": "Block unauthorized access, review access permissions, and investigate affected system components.",
+        "Responsible_Role": "IT / Security Team",
+        "Priority": "High"
+    },
+    {
+        "Incident_ID": "I06",
+        "Incident": "Inappropriate Use of Model Predictions",
+        "Detection_Method": "User reports or governance reviews",
+        "Potential_Impact": "Business decisions may rely entirely on predictions without appropriate human review.",
+        "Response_Action": "Review the affected decisions, reinforce human oversight requirements, and clarify the limitations of model predictions.",
+        "Responsible_Role": "Business Owner / Governance Officer",
+        "Priority": "Medium"
+    }
+]

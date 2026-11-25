@@ -1,0 +1,65 @@
+[
+    {
+        "Audit_ID": "A01",
+        "Audit_Area": "Data Documentation",
+        "Audit_Requirement": "Verify that data sources, cleaning procedures, and data preparation steps are documented.",
+        "Evidence": "Notebook 01 and monitoring reference data",
+        "Review_Status": "Available"
+    },
+    {
+        "Audit_ID": "A02",
+        "Audit_Area": "Model Development",
+        "Audit_Requirement": "Review model configurations, training procedures, and evaluation results.",
+        "Evidence": "Trained model artifacts and model_results.json",
+        "Review_Status": "Available"
+    },
+    {
+        "Audit_ID": "A03",
+        "Audit_Area": "Experiment Tracking",
+        "Audit_Requirement": "Verify that experiments, parameters, metrics, and model artifacts are recorded.",
+        "Evidence": "MLflow experiment records",
+        "Review_Status": "Available"
+    },
+    {
+        "Audit_ID": "A04",
+        "Audit_Area": "Model Monitoring",
+        "Audit_Requirement": "Review drift detection results and model performance monitoring reports.",
+        "Evidence": "Monitoring reports and performance_baseline.json",
+        "Review_Status": "Prototype Available"
+    },
+    {
+        "Audit_ID": "A05",
+        "Audit_Area": "Risk Management",
+        "Audit_Requirement": "Verify that identified risks, assessment scores, and mitigation measures are documented.",
+        "Evidence": "risk_register.json",
+        "Review_Status": "Available"
+    },
+    {
+        "Audit_ID": "A06",
+        "Audit_Area": "Impact Assessment",
+        "Audit_Requirement": "Review stakeholder impacts and proposed response measures.",
+        "Evidence": "impact_assessment.json",
+        "Review_Status": "Available"
+    },
+    {
+        "Audit_ID": "A07",
+        "Audit_Area": "Incident Management",
+        "Audit_Requirement": "Verify that incident scenarios and response procedures are documented.",
+        "Evidence": "incident_management.json",
+        "Review_Status": "Documentation Prepared"
+    },
+    {
+        "Audit_ID": "A08",
+        "Audit_Area": "AI Governance",
+        "Audit_Requirement": "Review governance principles, responsibilities, and applicable frameworks.",
+        "Evidence": "Governance documentation and framework assessment",
+        "Review_Status": "Available"
+    },
+    {
+        "Audit_ID": "A09",
+        "Audit_Area": "Deployment and Access Control",
+        "Audit_Requirement": "Verify deployment approval, authentication, and access control procedures.",
+        "Evidence": "Deployment and security documentation",
+        "Review_Status": "Pending"
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "Lifecycle_Stage": "Planning and Design",
+        "Main_Activities": "Define the business problem, intended purpose, system objectives, and potential risks.",
+        "Governance_Controls": "Document intended use, identify stakeholders, and perform an initial risk assessment.",
+        "Implementation_Status": "Completed"
+    },
+    {
+        "Lifecycle_Stage": "Data Preparation",
+        "Main_Activities": "Collect, inspect, clean, and prepare the dataset.",
+        "Governance_Controls": "Check data quality, document data sources, and consider privacy and fairness requirements.",
+        "Implementation_Status": "Completed"
+    },
+    {
+        "Lifecycle_Stage": "Model Development",
+        "Main_Activities": "Train and optimize the customer churn prediction model.",
+        "Governance_Controls": "Document model configurations, experiments, and development decisions.",
+        "Implementation_Status": "Completed"
+    },
+    {
+        "Lifecycle_Stage": "Model Evaluation",
+        "Main_Activities": "Evaluate predictive performance using appropriate evaluation metrics.",
+        "Governance_Controls": "Review model performance, limitations, and potential bias before approval.",
+        "Implementation_Status": "Partially Completed"
+    },
+    {
+        "Lifecycle_Stage": "Deployment",
+        "Main_Activities": "Integrate the selected model into an operational environment.",
+        "Governance_Controls": "Require deployment approval, access controls, and appropriate testing.",
+        "Implementation_Status": "Planned"
+    },
+    {
+        "Lifecycle_Stage": "Monitoring",
+        "Main_Activities": "Monitor data distributions and model performance over time.",
+        "Governance_Controls": "Detect data drift, review performance changes, and generate monitoring reports.",
+        "Implementation_Status": "Prototype Completed"
+    },
+    {
+        "Lifecycle_Stage": "Maintenance and Improvement",
+        "Main_Activities": "Review model behavior, investigate issues, and evaluate the need for retraining.",
+        "Governance_Controls": "Document model changes, validate updated models, and maintain version records.",
+        "Implementation_Status": "Planned"
+    },
+    {
+        "Lifecycle_Stage": "Retirement",
+        "Main_Activities": "Withdraw outdated or unsuitable models from operational use.",
+        "Governance_Controls": "Approve model retirement, archive relevant records, and manage associated data responsibly.",
+        "Implementation_Status": "Planned"
+    }
+]

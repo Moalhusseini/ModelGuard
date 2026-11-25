@@ -1,0 +1,5 @@
+test,expected_release,actual_release,passed,issues
+Unsupported Claim,False,False,True,"['Unsupported deployment claim', 'Unsupported automatic retraining claim']"
+Incorrect Numerical Claim,False,False,True,['Accuracy does not match evidence.']
+Insufficient Evidence,False,False,True,['Insufficient evidence for: drift_analysis']
+Valid Response,True,True,True,[]

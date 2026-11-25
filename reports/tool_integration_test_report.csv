@@ -1,0 +1,13 @@
+Tool,Status,Execution_Time_Seconds,Result_Type,Error
+get_model_information,Passed,0.0025,dict,
+get_performance_baseline,Passed,0.0008,dict,
+get_batch_performance,Passed,0.0725,list,
+get_drift_analysis,Passed,0.1638,dict,
+get_system_profile,Passed,0.0083,dict,
+get_risk_register,Passed,0.0072,list,
+get_impact_assessment,Passed,0.0065,list,
+get_incident_management,Passed,0.0064,list,
+get_governance_controls,Passed,0.0318,dict,
+get_mlflow_experiments,Passed,6.371,list,
+get_mlflow_run_details,Passed,0.024,list,
+get_system_status,Passed,0.0002,dict,

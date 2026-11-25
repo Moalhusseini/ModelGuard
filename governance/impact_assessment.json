@@ -1,0 +1,47 @@
+[
+    {
+        "Stakeholder": "Customers",
+        "Impact_Type": "Direct",
+        "Potential_Impact": "Customers may be targeted by retention actions based on churn predictions.",
+        "Potential_Benefit": "Receive more relevant services, support, or retention offers.",
+        "Potential_Negative_Effect": "Incorrect predictions may lead to unsuitable or unequal treatment.",
+        "Impact_Level": "High",
+        "Response_Measures": "Review important customer-related actions before implementation, avoid decisions based only on model predictions, and evaluate prediction quality across customer groups."
+    },
+    {
+        "Stakeholder": "Business Users",
+        "Impact_Type": "Direct",
+        "Potential_Impact": "Use churn predictions to support customer retention decisions.",
+        "Potential_Benefit": "Improve decision-making and identify customers who may need attention.",
+        "Potential_Negative_Effect": "Overreliance on predictions may result in inappropriate decisions.",
+        "Impact_Level": "Medium",
+        "Response_Measures": "Provide clear explanations of model outputs, communicate model limitations, and require human review before important decisions."
+    },
+    {
+        "Stakeholder": "Business Owner",
+        "Impact_Type": "Organizational",
+        "Potential_Impact": "Use model insights to support business strategies and resource allocation.",
+        "Potential_Benefit": "Improve retention planning and operational efficiency.",
+        "Potential_Negative_Effect": "Unreliable predictions may lead to ineffective business strategies.",
+        "Impact_Level": "Medium",
+        "Response_Measures": "Review model performance reports, assess business outcomes, and approve the use of model predictions in business processes."
+    },
+    {
+        "Stakeholder": "Data Science Team",
+        "Impact_Type": "Operational",
+        "Potential_Impact": "Responsible for model development, evaluation, and performance review.",
+        "Potential_Benefit": "Gain structured insights into model behavior and performance.",
+        "Potential_Negative_Effect": "Insufficient monitoring may delay the detection of model problems.",
+        "Impact_Level": "Medium",
+        "Response_Measures": "Perform regular model evaluation, investigate data drift, document model changes, and review potential bias."
+    },
+    {
+        "Stakeholder": "Organization",
+        "Impact_Type": "Organizational",
+        "Potential_Impact": "Integrate model predictions into customer retention processes.",
+        "Potential_Benefit": "Support more informed decisions and improve resource allocation.",
+        "Potential_Negative_Effect": "Privacy, security, or model reliability issues may create operational and reputational risks.",
+        "Impact_Level": "High",
+        "Response_Measures": "Apply data protection and access control measures, maintain governance documentation, and establish procedures for handling security and model-related incidents."
+    }
+]
